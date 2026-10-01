@@ -1,6 +1,18 @@
 # Anki-Organisation für das M2
 
-## Aktuell: 5. Semester MHB – Pharma-Push ohne Import
+## Aktuell: Deck „M2 Lernplan“ (`build_m2_lernplan_deck.py`)
+
+```
+python3 build_m2_lernplan_deck.py amboss_decks.apkg M2_Lernplan.apkg
+```
+
+Baut ein Deck mit 793 Unterdecks: Sem5 Pharma-Push (pro Modul nach Wirkstoffgruppen), die Sem5-Module
+(Hormonsystem, Sinnessysteme, Notfall II) nach Fach und Thema, „Später nach Fach“, Vorklinik und
+Verzichtbar (Yield 4). Innerhalb eines Themas: Yield 1 → 2 → 3. Alle Karten bekommen neue IDs, damit der
+Import sie sicher in die neuen Decks legt. Getestet mit der Anki-Bibliothek 26.09.3: Der Import in eine leere
+Sammlung legt 33.893 Karten an. Ist das alte Deck noch da, entstehen Duplikate, deshalb muss es vorher gelöscht werden.
+
+## Älter: 5. Semester MHB – Pharma-Push ohne Import
 
 Den apkg-Import gibt es nicht mehr. Der Plan läuft vollständig über Suchbefehle im Anki-Browser, siehe Lernplan-Artifact.
 - Pharmakologie (1.965 Karten, Yield 1–3): 15 neue Karten pro Tag, sortiert Yield 1 → 2 → 3.
