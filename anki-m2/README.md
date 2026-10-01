@@ -1,6 +1,14 @@
 # Anki-Organisation für das M2
 
-## Aktuell: Ankizin-Semesterplan (`organize_ankizin_m2_plan.py`)
+## Aktuell: 5. Semester MHB – Pharma-Push ohne Import
+
+Den apkg-Import gibt es nicht mehr. Der Plan läuft vollständig über Suchbefehle im Anki-Browser, siehe Lernplan-Artifact.
+- Pharmakologie (1.965 Karten, Yield 1–3): 15 neue Karten pro Tag, sortiert Yield 1 → 2 → 3.
+  Der Pharma-Teil des laufenden Moduls wird nach vorn geholt.
+- Module im 5. Semester (BMM): Hormonsystem/Geschlechtsorgane/Sexualität (Pharma-Lerntag 076),
+  Sinnessysteme (077), Notfall II (074 + 075). Aus den Fächern des Moduls kommen 10 neue Karten pro Tag (Yield 1–2).
+
+## Älter: Ankizin-Semesterplan (`organize_ankizin_m2_plan.py`)
 
 Das Skript teilt das Ankizin-Deck (`amboss_decks.apkg`, 33.893 Karten) in 5 Semesterblöcke ein:
 `M2Plan::Block_1_Innere` … `Block_5_Querschnitt`, dazu `M2Plan::Yield_1–4` (aus der IMPP-Relevanz von Ankizin).
